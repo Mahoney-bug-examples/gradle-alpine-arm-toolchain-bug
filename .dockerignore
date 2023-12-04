@@ -1,0 +1,24 @@
+# Local build
+build/
+.gradle/
+out/
+
+# Git
+/.git/
+/.gitattributes
+/.gitignore
+
+# IntelliJ
+/.idea/
+
+# macOS
+**/.DS_Store
+
+# GitHub
+/.github/
+
+README.md
+
+# Docker
+.dockerignore
+Dockerfile
