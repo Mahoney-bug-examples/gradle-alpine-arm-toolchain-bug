@@ -1,7 +1,8 @@
 # Local build
-build/
-.gradle/
-out/
+**/build/
+**/.gradle/
+/out/
+**/tmp/
 
 # Git
 /.git/
@@ -17,8 +18,9 @@ out/
 # GitHub
 /.github/
 
-README.md
-
 # Docker
-.dockerignore
 Dockerfile
+.dockerignore
+
+# build script
+/build.sh
