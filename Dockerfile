@@ -6,7 +6,7 @@ COPY . .
 
 RUN ./gradlew --version
 
-From base
+FROM base
 
 ENV GRADLE_OPTS="\
 -Dorg.gradle.daemon=false \
