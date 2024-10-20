@@ -17,12 +17,4 @@ jobs:
 
       - uses: actions/checkout@v4
 
-      - name: Setup docker (missing on MacOS)
-        if: runner.os == 'macos'
-        run: |
-          brew install docker docker-buildx
-          mkdir -p ~/.docker/cli-plugins
-          ln -sfn /usr/local/opt/docker-buildx/bin/docker-buildx ~/.docker/cli-plugins/docker-buildx
-          colima start
-
       - run: docker build .
