@@ -14,7 +14,7 @@ If you want to explore the failure, you can run the following:
 
 ```bash
 docker build . --target base -t gradle-alpine-arm-toolchain-bug-base && \
-docker run --rm -it gradle-alpine-arm-toolchain-bug sh
+docker run --rm -it gradle-alpine-arm-toolchain-bug-base sh
 ```
 
 Then you will be in the container and can run `./gradlew build` to reproduce the
