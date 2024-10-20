@@ -1,6 +1,6 @@
-# Minimal Reproduction of Coredump in Alpine arm64 platform (gradle/gradle#24875)
+# Minimal Reproduction of Toolchain download on alpine fails in indecipherable way (gradle/gradle#30970)
 
-This project is a minimal reproduction of https://github.com/gradle/gradle/issues/TODO.
+This project is a minimal reproduction of https://github.com/gradle/gradle/issues/30970.
 
 You can see it fail at https://github.com/Mahoney-bug-examples/gradle-alpine-arm-toolchain-bug/actions.
 
