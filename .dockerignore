@@ -24,3 +24,5 @@ Dockerfile
 
 # build script
 /build.sh
+
+README.md
